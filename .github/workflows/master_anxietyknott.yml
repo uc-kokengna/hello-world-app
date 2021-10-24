@@ -53,4 +53,4 @@ jobs:
           app-name: 'AnxietyKnott'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CD0E958C5C5E4D5CB22C3CE6A505EFB3 }}
-          package: .
+          package: ./dist/hello-world-app
